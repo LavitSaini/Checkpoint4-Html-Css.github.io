@@ -1,0 +1,1539 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment - Checkpoint 4 | Flexor</title>
+
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="style1.css">
+
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/8a2cca48dc.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <!-- Navigation - Bar (Navbar) -->
+
+        <nav class="navbar container flex justify-between items-center">
+
+            <!-- Navbar Brand Icon -->
+
+            <a href="#index.html" class="brand">Flexor</a>
+
+
+            <!-- Bars Icon -->
+
+            <label for="toggle" class="nav-bars-icon">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </label>
+            <input type="checkbox" id="toggle">
+
+
+            <!-- Navbar Links -->
+
+            <ul class="nav-links flex items-center">
+
+                <li class="nav-link-item">
+                    <a href="#home" class="active">Home</a>
+                </li>
+
+                <li class="nav-link-item">
+                    <a href="#about">About</a>
+                </li>
+
+                <li class="nav-link-item">
+                    <a href="#services">Services</a>
+                </li>
+
+                <li class="nav-link-item">
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+
+                <li class="nav-link-item">
+                    <a href="#team">Team</a>
+                </li>
+                <li class="nav-link-item">
+                    <a href="#pricing">Pricing</a>
+                </li>
+
+                <li class="nav-link-item">
+                    <a href="blog.html">Blog</a>
+                </li>
+
+                <!-- Drop Down Menu Button -->
+
+                <li class="nav-link-item drop-down-link">
+                    <a href="#">
+                        <span>Drop Down</span>
+                        <span class="down-up-icons">
+                            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                        </span>
+                    </a>
+
+                    <!-- Drop - Down Menu -->
+
+                    <ul class="drop-down">
+
+                        <li class="drop-down-item">
+                            <a href="#">Drop Down 1</a>
+                        </li>
+
+                        <!-- Deep Down Menu Button -->
+
+                        <li class="drop-down-item deep-down-link">
+                            <a href="#" class="flex justify-between items-center">
+                                <span>Drop Down 2</span>
+                                <span>
+                                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                </span>
+                            </a>
+
+                            <!-- Deep - Down Menu -->
+
+                            <ul class="deep-down">
+                                <li class="deep-down-item">
+                                    <a href="#">
+                                        Deep Down 1
+                                    </a>
+                                </li>
+                                <li class="deep-down-item">
+                                    <a href="#">
+                                        Deep Down 2
+                                    </a>
+                                </li>
+                                <li class="deep-down-item">
+                                    <a href="#">
+                                        Deep Down 3
+                                    </a>
+                                </li>
+                                <li class="deep-down-item">
+                                    <a href="#">
+                                        Deep Down 4
+                                    </a>
+                                </li>
+                                <li class="deep-down-item">
+                                    <a href="#">
+                                        Deep Down 5
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="drop-down-item">
+                            <a href="#">Drop Down 3</a>
+                        </li>
+
+                        <li class="drop-down-item">
+                            <a href="#">Drop Down 4</a>
+                        </li>
+
+                        <li class="drop-down-item">
+                            <a href="#">Drop Down 5</a>
+                        </li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-link-item">
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Main Section -->
+
+    <main>
+
+        <!-- Home Section -->
+
+        <section class="home-section" id="home">
+
+            <div class="home-sec-content container">
+
+                <!-- Home - Section  Content - Box -->
+
+                <div class="home-text-box">
+
+                    <h1>
+                        Welcome to Flexor
+                    </h1>
+                    <p>
+                        We are team of talanted designers making websites with Bootstrap
+                    </p>
+                    <a href="#" class="home-design-btn">
+                        <span class="btn-circle">
+                            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        </span>
+                        <span class="btn-text">
+                            Get Started
+                        </span>
+                    </a>
+
+                </div>
+
+                <!-- Home Section  Articles - Box  -->
+
+                <div class="home-articles-box flex justify-between items-center flex-wrap-2">
+
+                    <article class="home-sec-article-1 flex-34 md-flex-100">
+                        <h2>
+                            Why Choose Flexor for your company website
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod atque unde, ipsa delectus in
+                            nam qui cum dicta. Itaque dicta quisquam illum id.
+                        </p>
+                        <a href="#" class="home-article-btn">
+                            <span class="btn-text">
+                                Learn More
+                            </span>
+                            <span class="btn-icon">
+                                <i class="fa fa-angle-right" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </article>
+
+                    <article class="home-sec-article flex-20 md-flex-100">
+                        <div class="home-article-icon">
+                            <i class="fa fa-newspaper-o" aria-hidden="true"></i>
+                        </div>
+                        <h2>
+                            Corporis voluptates sit
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. delectus in nam qui cum dicta.
+                        </p>
+                    </article>
+
+                    <article class="home-sec-article flex-20 md-flex-100">
+                        <div class="home-article-icon">
+                            <i class="fa fa-cube" aria-hidden="true"></i>
+                        </div>
+                        <h2>
+                            Corporis voluptates sit
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. delectus in nam qui cum dicta.
+                        </p>
+                    </article>
+
+                    <article class="home-sec-article flex-20 md-flex-100">
+                        <div class="home-article-icon">
+                            <i class="fa fa-files-o" aria-hidden="true"></i>
+                        </div>
+                        <h2>
+                            Corporis voluptates sit
+                        </h2>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. delectus in nam qui cum dicta.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+
+        <section class="about-section padding-top-bottom" id="about">
+
+            <div class="container flex items-center flex-wrap-2">
+
+                <!-- About Section Video Box -->
+
+                <div class="about-sec-video-box flex-44 md-flex-100">
+                    <img src="media/about-img.jpg" alt="Video-Banner-Image">
+
+                    <a class="video-play-btn">
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <!-- About Section Content Box -->
+
+                <div class="about-sec-content-box flex-56 md-flex-100">
+
+                    <span>About us</span>
+                    <h3 class="heading">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga accusamus qui debitis
+                        aperiam eligendi, tempore culpa eius? Fuga at dolore quos eius cum fugiat maiores perspiciatis
+                        repellat velit est!
+                    </p>
+
+                    <article class="about-sec-article flex items-center">
+                        <div class="circle-icon">
+                            <i class='fas fa-fingerprint'></i>
+                        </div>
+                        <div class="flex-88">
+                            <h6>Lorem ipsum</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis molestias aut
+                                saepe totam nam id!</p>
+                        </div>
+                    </article>
+
+                    <article class="about-sec-article flex items-center">
+                        <div class="circle-icon">
+                            <i class="fa fa-gift" aria-hidden="true"></i>
+                        </div>
+                        <div class="flex-88">
+                            <h6>Lorem ipsum</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis molestias aut
+                                saepe totam nam id!</p>
+                        </div>
+                    </article>
+
+                    <article class="about-sec-article flex items-center">
+                        <div class="circle-icon">
+                            <i class="fa fa-grav" aria-hidden="true"></i>
+                        </div>
+                        <div class="flex-88">
+                            <h6>Lorem ipsum</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis molestias aut
+                                saepe totam nam id!</p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Clients Section -->
+
+        <section class="clients-section padding-top-bottom" id="clients">
+
+            <div class="container flex justify-between items-center">
+
+                <div class="clients flex-16 md-display-none display-inline-block">
+                    <img src="media/clients/client-2.png" alt="Client-Image-1">
+                </div>
+
+                <div class="clients flex-16 md-display-none display-inline-block">
+                    <img src="media/clients/client-3.png" alt="Client-Image-2">
+                </div>
+
+                <div class="clients flex-16">
+                    <img src="media/clients/client-4.png" alt="Client-Image-3">
+                </div>
+
+                <div class="clients flex-16">
+                    <img src="media/clients/client-5.png" alt="Client-Image-4">
+                </div>
+
+                <div class="clients flex-16 sm-display-none">
+                    <img src="media/clients/client-6.png" alt="Client-Image-5">
+                </div>
+
+                <div class="clients flex-16 sm-display-none">
+                    <img src="media/clients/client-7.png" alt="Client-Image-6">
+                </div>
+
+            </div>
+
+            <ul class="dots-list flex justify-center items-center">
+                <li><a href="#" class="active"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+
+        </section>
+
+        <!-- Services Section -->
+
+        <section class="services-section padding-top-bottom" id="services">
+
+            <div class="container">
+
+                <h3 class="heading">Services</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam
+                    deserunt eum inventore modi odit, fugit quos assumenda aliquam atque eaque repudiandae enim porro
+                    architecto repellat illum officia magnam molestiae!</p>
+
+                <div class="services-box flex justify-between items-center flex-wrap-1">
+
+                    <div class="service flex-32 md-flex-48 sm-flex-100">
+                        <div class="service-sec-icon">
+                            <i class="fa fa-television" aria-hidden="true"></i>
+                        </div>
+                        <h4>
+                            Lorem ipsum
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur veritatis
+                            aspernatur explicabo cumque aperiam ipsam?
+                        </p>
+                    </div>
+
+                    <div class="service flex-32 md-flex-48 sm-flex-100">
+                        <div class="service-sec-icon">
+                            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                        </div>
+                        <h4>
+                            Lorem ipsum
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur veritatis
+                            aspernatur explicabo cumque aperiam ipsam?
+                        </p>
+                    </div>
+
+                    <div class="service flex-32 md-flex-48 sm-flex-100">
+                        <div class="service-sec-icon">
+                            <i class="fa fa-globe" aria-hidden="true"></i>
+                        </div>
+                        <h4>
+                            Lorem ipsum
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur veritatis
+                            aspernatur explicabo cumque aperiam?
+                        </p>
+                    </div>
+
+                    <div class="service flex-32 md-flex-48 sm-flex-100">
+                        <div class="service-sec-icon">
+                            <i class="fa fa-picture-o" aria-hidden="true"></i>
+                        </div>
+                        <h4>
+                            Lorem ipsum
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur veritatis
+                            aspernatur explicabo cumque aperiam ipsam?
+                        </p>
+                    </div>
+
+                    <div class="service flex-32 md-flex-48 sm-flex-100">
+                        <div class="service-sec-icon">
+                            <i class="fa fa-signal" aria-hidden="true"></i>
+                        </div>
+                        <h4>
+                            Lorem ipsum
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur veritatis
+                            aspernatur explicabo cumque aperiam ipsam?
+                        </p>
+                    </div>
+
+                    <div class="service flex-32 md-flex-48 sm-flex-100">
+                        <div class="service-sec-icon">
+                            <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
+                        </div>
+                        <h4>
+                            Lorem ipsum
+                        </h4>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur veritatis
+                            aspernatur explicabo cumque aperiam ipsam?
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Plan Section -->
+
+        <section class="plan-section padding-top-bottom" id="plan">
+
+            <div class="container flex justify-between flex-wrap-1">
+
+                <div class="plan-box flex-49 md-flex-48 sm-flex-100">
+                    <div class="plan-box-background-image">
+                        <img src="media/values-1.jpg" alt="Value-Image-1">
+                    </div>
+
+                    <article class="plan-box-article">
+                        <h5>Our Mission</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dignissimos nemo.</p>
+                        <a href="#">
+                            <span class="btn-icon">
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </span>
+                            <span class="btn-text">
+                                Read More
+                            </span>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="plan-box flex-49 md-flex-48 sm-flex-100">
+                    <div class="plan-box-background-image">
+                        <img src="media/values-2.jpg" alt="Value-Image-2">
+                    </div>
+
+                    <article class="plan-box-article">
+                        <h5>Our Plan</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dignissimos nemo.</p>
+                        <a href="#">
+                            <span class="btn-icon">
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </span>
+                            <span class="btn-text">
+                                Read More
+                            </span>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="plan-box flex-49 md-flex-48 sm-flex-100">
+                    <div class="plan-box-background-image">
+                        <img src="media/values-3.jpg" alt="Value-Image-3">
+                    </div>
+
+                    <article class="plan-box-article">
+                        <h5>Our Vision</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dignissimos nemo.</p>
+                        <a href="#">
+                            <span class="btn-icon">
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </span>
+                            <span class="btn-text">
+                                Read More
+                            </span>
+                        </a>
+                    </article>
+                </div>
+
+                <div class="plan-box flex-49 md-flex-48 sm-flex-100">
+                    <div class="plan-box-background-image">
+                        <img src="media/values-4.jpg" alt="Value-Image-4">
+                    </div>
+
+                    <article class="plan-box-article">
+                        <h5>Our Care</h5>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita dignissimos nemo.</p>
+                        <a href="#">
+                            <span class="btn-icon">
+                                <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                            </span>
+                            <span class="btn-text">
+                                Read More
+                            </span>
+                        </a>
+                    </article>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Review Section -->
+
+        <section class="review-section padding-top-bottom" id="review">
+
+            <div class="reviews-box container text-center display-none">
+
+                <div class="review-person-image">
+                    <img src="media/testimonials/testimonials-1.jpg" alt="Review-Person-1">
+                </div>
+
+                <h5>Saul Goodman</h5>
+
+                <span>Ceo & Founder</span>
+
+                <p>
+                    <span class="quote">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                    ipsum dolor sit amet consectetur adipisicing elit. Tempora, quisquam itaque ullam sequi quod nihil
+                    odit, eos ex dolore nemo voluptatum quidem neque deserunt.
+                    <span class="quote">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                </p>
+
+                <ul class="dots-list flex justify-center items-center">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" class="active"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+
+            </div>
+
+            <div class="reviews-box container text-center display-none">
+
+                <div class="review-person-image">
+                    <img src="media/testimonials/testimonials-2.jpg" alt="Review-Person-2">
+                </div>
+
+                <h5>Alexa</h5>
+
+                <span>Developer</span>
+
+                <p>
+                    <span class="quote">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                    ipsum dolor sit amet consectetur adipisicing elit. Tempora, quisquam itaque ullam sequi quod nihil
+                    odit, eos ex dolore nemo voluptatum quidem neque deserunt.
+                    <span class="quote">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                </p>
+
+                <ul class="dots-list flex justify-center items-center">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" class="active"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+
+            </div>
+
+            <div class="reviews-box container text-center">
+
+                <div class="review-person-image">
+                    <img src="media/testimonials/testimonials-3.jpg" alt="Review-Person-3">
+                </div>
+
+                <h5>Jena Karlis</h5>
+
+                <span>Store Owner</span>
+
+                <p>
+                    <span class="quote">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                    ipsum dolor sit amet consectetur adipisicing elit. Tempora, quisquam itaque ullam sequi quod nihil
+                    odit, eos ex dolore nemo voluptatum quidem neque deserunt.
+                    <span class="quote">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                </p>
+
+                <ul class="dots-list flex justify-center items-center">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" class="active"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+
+            </div>
+
+            <div class="reviews-box container text-center display-none">
+
+                <div class="review-person-image">
+                    <img src="media/testimonials/testimonials-4.jpg" alt="Review-Person-4">
+                </div>
+
+                <h5>Matt Brandon</h5>
+
+                <span>Freelancer</span>
+
+                <p>
+                    <span class="quote">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                    ipsum dolor sit amet consectetur adipisicing elit. Tempora, quisquam itaque ullam sequi quod nihil
+                    odit, eos ex dolore nemo voluptatum quidem neque deserunt.
+                    <span class="quote">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                </p>
+
+                <ul class="dots-list flex justify-center items-center">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" class="active"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+
+            </div>
+
+            <div class="reviews-box container text-center display-none">
+
+                <div class="review-person-image">
+                    <img src="media/testimonials/testimonials-5.jpg" alt="Review-Person-5">
+                </div>
+
+                <h5>John Larson</h5>
+
+                <span>Entrepreneur</span>
+
+                <p>
+                    <span class="quote">
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    </span>
+                    ipsum dolor sit amet consectetur adipisicing elit. Tempora, quisquam itaque ullam sequi quod nihil
+                    odit, eos ex dolore nemo voluptatum quidem neque deserunt.
+                    <span class="quote">
+                        <i class="fa fa-quote-right" aria-hidden="true"></i>
+                    </span>
+                </p>
+
+                <ul class="dots-list flex justify-center items-center">
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#" class="active"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- Portfolio Section -->
+
+        <section class="portfolio-section padding-top-bottom" id="portfolio">
+
+            <div class="portfolio-box container flex flex-wrap-1">
+
+                <div class="portfolio-sec-content flex-100">
+
+                    <h3 class="heading">Portfolio</h3>
+
+                    <p class="paragraph">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla reiciendis suscipit velit ea
+                        aperiam illum, doloribus voluptatibus ipsum dolor pariatur tempore, officiis, aliquam molestiae!
+                    </p>
+
+                    <ul class="porfolio-nav-links flex justify-center items-center">
+                        <li><a href="#" class="active">All</a></li>
+                        <li><a href="#">App</a></li>
+                        <li><a href="#">Card</a></li>
+                        <li><a href="#">Web</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="portfolio-sec-gallery flex-100 flex justify-between items-center flex-wrap-1">
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-1.jpg" alt="Portfolio-Image-1">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-1</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-2.jpg" alt="Portfolio-Image-2">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-2</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-3.jpg" alt="Portfolio-Image-3">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-3</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-4.jpg" alt="Portfolio-Image-4">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-4</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-5.jpg" alt="Portfolio-Image-5">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-5</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-6.jpg" alt="Portfolio-Image-6">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-6</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-7.jpg" alt="Portfolio-Image-7">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-7</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-8.jpg" alt="Portfolio-Image-8">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-8</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="portfolio-gallery-article flex-32 md-flex-48-2 sm-flex-100">
+                        <div class="portfolio-article-image">
+                            <img src="media/portfolio/portfolio-9.jpg" alt="Portfolio-Image-9">
+                        </div>
+
+                        <div class="portfolio-article-card flex justify-between items-center">
+                            <div class="card-content">
+                                <h6>Web</h6>
+                                <span>Card-9</span>
+                            </div>
+
+                            <div class="card-icons">
+                                <a href="#">
+                                    <i class="fa fa-plus" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-link fa-rotate-180" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Team Section -->
+
+        <section class="team-section padding-top-bottom" id="team">
+
+            <div class="container flex flex-wrap-1">
+
+                <div class="team-sec-content flex-100">
+                    <h3 class="heading">Team</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus illo sunt
+                        aperiam, nostrum
+                        natus dolor odio id quia quo ratione corrupti at ad nisi eligendi cupiditate quaerat maiores
+                        mollitia aut?</p>
+                </div>
+
+                <div class="team-sec-members flex-100 flex justify-between items-center flex-wrap-3">
+
+                    <article class="team-sec-article team-sec-article-1 flex-24 md-flex-48-2 sm-flex-100">
+                        <div class="team-member-image">
+                            <img src="media/team/team-1.jpg" alt="Team-Member-1">
+                        </div>
+
+                        <div class="team-member-social-media-link">
+                            <ul class="social-media-link flex items-center">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="team-member-info">
+                            <h6>Walter White</h6>
+                            <p>Chief Executive Officer</p>
+                        </div>
+                    </article>
+
+                    <article class="team-sec-article team-sec-article-2 flex-24 md-flex-48-2 sm-flex-100">
+                        <div class="team-member-image">
+                            <img src="media/team/team-2.jpg" alt="Team-Member-2">
+                        </div>
+
+                        <div class="team-member-social-media-link">
+                            <ul class="social-media-link flex items-center">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="team-member-info">
+                            <h6>Sarah Jhonson</h6>
+                            <p>Product Manager</p>
+                        </div>
+                    </article>
+
+                    <article class="team-sec-article team-sec-article-3 flex-24 md-flex-48-2 sm-flex-100">
+                        <div class="team-member-image">
+                            <img src="media/team/team-3.jpg" alt="Team-Member-3">
+                        </div>
+
+                        <div class="team-member-social-media-link">
+                            <ul class="social-media-link flex items-center">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="team-member-info">
+                            <h6>William Anderson</h6>
+                            <p>CTO</p>
+                        </div>
+                    </article>
+
+                    <article class="team-sec-article team-sec-article-4 flex-24 md-flex-48-2 sm-flex-100">
+                        <div class="team-member-image">
+                            <img src="media/team/team-4.jpg" alt="Team-Member-4">
+                        </div>
+
+                        <div class="team-member-social-media-link">
+                            <ul class="social-media-link flex items-center">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="team-member-info">
+                            <h6>Amanda Jepson</h6>
+                            <p>Accountant</p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Pricing Section -->
+
+        <section class="pricing-section padding-top-bottom" id="pricing">
+
+            <div class="container flex flex-wrap-1">
+
+                <div class="pricing-content flex-100">
+
+                    <h3 class="heading">Pricing</h3>
+                    <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat recusandae
+                        sunt nostrum nam eum autem temporibus voluptatum! Praesentium dolor quas sed quos,
+                        exercitationem aperiam quidem.</p>
+
+                </div>
+
+                <div class="pricing-banners flex justify-between items-center flex-100 flex-wrap-3">
+
+                    <div class="pricing-box pricing-box-1 flex-24 md-flex-48-2 sm-flex-100">
+                        <header>
+                            <span>Free</span>
+                        </header>
+                        <main>
+                            <h5><span class="small-text bold">$</span>0<span class="small-text">/month</span></h5>
+                            <p>Aida dere</p>
+                            <p>Nec feugiat nisl</p>
+                            <p>Nulla at volutpat dola</p>
+                            <p class="line-through-text">Pharetra massa</p>
+                            <p class="line-through-text">Massa ultricies mi</p>
+                        </main>
+                        <footer>
+                            <a href="#" class="pricing-banner-btn btn">
+                                Buy Now
+                            </a>
+                        </footer>
+                    </div>
+
+                    <div class="pricing-box pricing-box-2 flex-24 md-flex-48-2 sm-flex-100">
+                        <header class="active">
+                            <span>Business</span>
+                        </header>
+                        <main>
+                            <h5><span class="small-text bold">$</span>19<span class="small-text">/month</span></h5>
+                            <p>Aida dere</p>
+                            <p>Nec feugiat nisl</p>
+                            <p>Nulla at volutpat dola</p>
+                            <p>Pharetra massa</p>
+                            <p class="line-through-text">Massa ultricies mi</p>
+                        </main>
+                        <footer>
+                            <a href="#" class="pricing-banner-btn btn">
+                                Buy Now
+                            </a>
+                        </footer>
+                    </div>
+
+                    <div class="pricing-box pricing-box-3 flex-24 md-flex-48-2 sm-flex-100">
+                        <header>
+                            <span>Developer</span>
+                        </header>
+                        <main>
+                            <h5><span class="small-text bold">$</span>29<span class="small-text">/month</span></h5>
+                            <p>Aida dere</p>
+                            <p>Nec feugiat nisl</p>
+                            <p>Nulla at volutpat dola</p>
+                            <p>Pharetra massa</p>
+                            <p>Massa ultricies mi</p>
+                        </main>
+                        <footer>
+                            <a href="#" class="pricing-banner-btn btn">
+                                Buy Now
+                            </a>
+                        </footer>
+                    </div>
+
+                    <div class="pricing-box pricing-box-4 pricing-box-last flex-24 md-flex-48-2 sm-flex-100">
+                        <header>
+                            <span>Ultimate</span>
+                            <span class="advanced">Advanced</span>
+                        </header>
+                        <main>
+                            <h5><span class="small-text bold">$</span>49<span class="small-text">/month</span></h5>
+                            <p>Aida dere</p>
+                            <p>Nec feugiat nisl</p>
+                            <p>Nulla at volutpat dola</p>
+                            <p>Pharetra massa</p>
+                            <p>Massa ultricies mi</p>
+                        </main>
+                        <footer>
+                            <a href="#" class="pricing-banner-btn btn">
+                                Buy Now
+                            </a>
+                        </footer>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <!-- F.A.Q Section -->
+
+        <section class="faq-section padding-top-bottom" id="faq">
+
+            <div class="flex flex-wrap-1 container">
+
+                <div class="faq-sec-content flex-100">
+                    <h3 class="heading">F.A.Q</h3>
+                    <p class="paragraph">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis minima, vitae quibusdam
+                        rerum
+                        alias quo rem illum doloremque blanditiis magnam quasi id, nihil delectus odio? Iure ab
+                        accusantium
+                        sint odio.
+                    </p>
+                </div>
+
+                <div class="faq-sec-questions-box flex-100 container-1">
+
+                    <div class="faq-question flex flex-wrap-1 justify-between items-center">
+
+                        <div class="question-box flex items-center">
+                            <span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span>
+                            <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h6>
+                        </div>
+
+                        <label for="check-1" class="check-btn">
+                            <span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </label>
+                        <input type="checkbox" id="check-1">
+
+                        <p class="faq-answer faq-answer-1 flex-100">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.Reprehenderit laborum omnis voluptatibus nemo vero modi magni corrupti cumque, placeat
+                            fugit.</p>
+
+                    </div>
+
+                    <div class="faq-question flex flex-wrap-1 justify-between items-center">
+
+                        <div class="question-box flex items-center">
+                            <span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span>
+                            <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h6>
+                        </div>
+
+                        <label for="check-2" class="check-btn">
+                            <span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </label>
+                        <input type="checkbox" id="check-2">
+
+                        <p class="faq-answer faq-answer-2 flex-100">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.Reprehenderit laborum omnis voluptatibus nemo vero modi magni corrupti cumque, placeat
+                            fugit.</p>
+
+                    </div>
+
+                    <div class="faq-question flex flex-wrap-1 justify-between items-center">
+
+                        <div class="question-box flex items-center">
+                            <span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span>
+                            <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h6>
+                        </div>
+
+                        <label for="check-3" class="check-btn">
+                            <span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </label>
+                        <input type="checkbox" id="check-3">
+
+                        <p class="faq-answer faq-answer-3 flex-100">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.Reprehenderit laborum omnis voluptatibus nemo vero modi magni corrupti cumque, placeat
+                            fugit.</p>
+
+                    </div>
+
+                    <div class="faq-question flex flex-wrap-1 justify-between items-center">
+
+                        <div class="question-box flex items-center">
+                            <span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span>
+                            <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h6>
+                        </div>
+
+                        <label for="check-4" class="check-btn">
+                            <span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </label>
+                        <input type="checkbox" id="check-4">
+
+                        <p class="faq-answer faq-answer-4 flex-100">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.Reprehenderit laborum omnis voluptatibus nemo vero modi magni corrupti cumque, placeat
+                            fugit.</p>
+
+                    </div>
+
+                    <div class="faq-question flex flex-wrap-1 justify-between items-center">
+
+                        <div class="question-box flex items-center">
+                            <span><i class="fa fa-question-circle-o" aria-hidden="true"></i></span>
+                            <h6>Lorem ipsum, dolor sit amet consectetur adipisicing elit?</h6>
+                        </div>
+
+                        <label for="check-5" class="check-btn">
+                            <span>
+                                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </label>
+                        <input type="checkbox" id="check-5">
+
+                        <p class="faq-answer faq-answer-5 flex-100">Lorem ipsum dolor sit amet consectetur, adipisicing
+                            elit.Reprehenderit laborum omnis voluptatibus nemo vero modi magni corrupti cumque, placeat
+                            fugit.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Contact Section -->
+
+        <section class="contact-section padding-top-bottom" id="contact">
+
+            <div class="contact-sec-content container">
+                <h3 class="heading">Contact</h3>
+                <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nam, corrupti
+                    exercitationem voluptate beatae commodi corporis maximenisi amet placeat deleniti perspiciatis,
+                    facere voluptatibus voluptas ea, iste doloremque labore cumque.</p>
+            </div>
+
+            <div class="contact-sec-box container-1">
+
+                <div class="flex-100 flex justify-between items-center flex-wrap-3">
+
+                    <div class="contact-information flex-32 flex items-start md-flex-100-2">
+                        <div class="contact-icon small-padding">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h6>Our Address</h6>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-information flex-32 flex items-start md-flex-100-2">
+                        <div class="contact-icon">
+                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h6>Email Us</h6>
+                            <p>info@example.com</p>
+                            <p>contact@example.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-information flex-32 flex items-start md-flex-100-2">
+                        <div class="contact-icon">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h6>Call Us</h6>
+                            <p>+1 5589 55488 55</p>
+                            <p>+1 6678 254445 41</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="contact-form flex-100">
+
+                    <form action="index.html" method="post">
+                        <input type="text" name="user-name" placeholder="Your Name" class="width-48 margin-right"><!--
+                        --><input type="email" name="user-email" placeholder="Your Email" class="width-48 margin-left"><!--
+                        --><input type="text" name="subject" placeholder="Subject" class="width-100"><!--
+                        --><textarea name="message" rows="6" placeholder="Subject" class="width-100"></textarea><!--
+                        -->
+                        <div class="flex justify-center items-center">
+                            <button class="form-btn btn">Send Message</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- footer Section -->
+
+    <footer class="footer">
+
+        <section class="footer-upper-section padding-top-bottom">
+
+            <div class="container flex justify-between items-start flex-wrap-2">
+
+                <div class="footer-content-box flex-20 md-flex-48 sm-flex-100">
+                    <h4>Flexor</h4>
+                    <div class="loction">
+                        <p>A108 Adam Street</p>
+                        <p>New York, NY 535022</p>
+                        <p>United States</p>
+                    </div>
+                    <div class="phone-email">
+                        <p><strong>Phone:</strong>+1 5589 55488 55</p>
+                        <p><strong>Email:</strong> info@example.com</p>
+                    </div>
+                </div>
+
+                <div class="foot-links foot-links-1 md-flex-48 sm-flex-100">
+                    <h6>Usefull Links</h6>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>About us</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Term of Services</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Privacy Policy</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="foot-links foot-links-2 md-flex-48 sm-flex-100">
+                    <h6>Our Services</h6>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Web Design</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Web Development</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Product Management</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Marketing</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                                <span>Graphic Design</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-subscribe-box flex-34 md-flex-48 sm-flex-100">
+                    <h6>Join Our Newsletter</h6>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo esse consectetur eaque!</p>
+                    <div class="subscribe">
+                        <input type="search">
+                        <a href="#">Subscribe</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="footer-lower-section">
+
+            <div class="container flex justify-between items-center flex-column">
+
+                <div class="foot-text">
+                    <p>&copy; Copyright <strong>Flexor.</strong> All Rights Reserved</p>
+                    <span>Designed by <strong class="primary-color">BootstrapMade</strong></span>
+                </div>
+
+                <ul class="foot-icons flex">
+                    <li>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="extra-padding"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+
+        <!-- Postion fixed Button (Moves Page from Bottom to Top) -->
+
+        <a href="#home" class="bottom-to-top-btn">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
