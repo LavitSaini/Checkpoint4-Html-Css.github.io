@@ -464,6 +464,11 @@ video {
   margin-top: 1.6rem;
 }
 
+.blog-section-content .blog-sec-article:hover .blog-article-text h3{
+  transition: all 200ms ease-in-out;
+  color: var(--primary);
+}
+
 .blog-sec-article .blog-article-text{
   padding: 1rem;
 }
@@ -543,6 +548,121 @@ video {
   transition: all 200ms ease-in-out;
   background-color: var(--primary);
   color: #ffffff;
+}
+
+/* Contact Section */
+
+.contact-section{
+  background-color: #f1eded;
+}
+
+.contact-sec-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.contact-information {
+  background-color: #ffffff;
+  box-shadow: var(--box-shadow);
+  padding: 1.4rem;
+}
+
+.contact-icon {
+  display: inline-block;
+  padding: 0.7rem;
+  border-radius: 50%;
+  border: 2px dotted #ea55334b;
+  margin-right: 1rem;
+  font-size: 1.4rem;
+  color: var(--primary);
+}
+
+.contact-information .small-padding {
+  padding: 0.7rem 0.85rem;
+}
+
+.contact-info h6 {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--text1);
+  margin-bottom: 0.4rem;
+}
+
+.contact-info p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: var(--text3);
+  line-height: 1.7;
+}
+
+.contact-form {
+  margin-top: 1.5rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: var(--box-shadow);
+}
+
+.contact-form input,
+textarea {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  font-family: "Open Sans", sans-serif;
+  border-color: #cdcdcd;
+}
+
+.contact-form input:focus {
+  border-color: var(--primary);
+}
+
+.contact-form textarea:focus {
+  border-color: var(--primary);
+}
+
+.contact-form input::placeholder {
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: -0.5px;
+}
+
+.contact-form textarea::placeholder {
+  font-weight: 500;
+  font-size: 0.85rem;
+  letter-spacing: -0.5px;
+}
+
+.contact-form input[type="text"] {
+  color: #2e2e2e;
+  letter-spacing: -0.4px;
+  font-size: 0.85rem;
+}
+
+.contact-form input[type="email"] {
+  color: #2e2e2e;
+  letter-spacing: -0.4px;
+  font-size: 0.85rem;
+}
+
+.contact-form .form-btn {
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  padding: 0.8rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 0;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.margin-right {
+  margin-right: 2%;
+}
+
+.margin-left {
+  margin-left: 2%;
 }
 
 /* footer Section */
@@ -860,6 +980,16 @@ video {
 
   .md-display-none {
     display: none;
+  }
+
+  /* Contact Section */
+
+  .contact-section .contact-information {
+    margin-bottom: 1.6rem;
+  }
+
+  .contact-section .contact-form {
+    margin-top: 0;
   }
 
   /* footer Section */

@@ -1185,13 +1185,14 @@ h5 {
   font-weight: 500;
   display: none;
   margin-top: 0.75rem;
+  font-size: 0.9rem;
 }
 
 .check-btn {
   cursor: pointer;
 }
 
-#check-1:checked ~ .faq-answer {
+#check-1:checked ~ .faq-answer-1{
   display: block;
 }
 
